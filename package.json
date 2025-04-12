@@ -1,6 +1,6 @@
 {
   "name": "travelmap-react-wilboerht",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An interactive travel map component for React applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,6 +25,9 @@
     "url": "https://github.com/wilboerht/travelmap-react-wilboerht/issues"
   },
   "homepage": "https://github.com/wilboerht/travelmap-react-wilboerht#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
